@@ -43,6 +43,7 @@ Should you have any issues or questions, ideas or concerns feel free to reach ou
 
 - [Joy Machuka](https://github.com/MachukaJoy)
 ### Licence
-[MIT LICENSE](https://github.com/MachukaJoy/birthday-calculator/blob/main/LICENSE)
-**
+[MIT LICENSE](https://github.com/MachukaJoy/birthday-calculator/blob/main/LICENSE)<br>
+
+** <br>
 Copyright (c) {2022} [Joy Machuka ](https://github.com/MachukaJoy)
