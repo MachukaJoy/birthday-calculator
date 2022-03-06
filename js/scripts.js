@@ -7,13 +7,22 @@ function validateFunction(){
   var gender = document.forms["userinput"]["gender"].value;
 
   var date = document.forms["userinput"]["date"].value;
-  // change date format to be able to get day
+
   
+
   var confirmDate = new Date(date); 
 
   var confirmDay = confirmDate.getDay();
 
-
+  if (gender === male){
+    akan_name = maleNames[confirmDay];
+  }
+  else if (gender === female){
+    akan_name = femaleNames[confirmDay]
+  } 
+  else {
+    alert ("Date Invalid, Enter correct input");
+  }
 
 }
 alert("Your akan name is " +akan_name);
