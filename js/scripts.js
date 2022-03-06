@@ -23,6 +23,7 @@ function validateFunction(){
   else {
     alert ("Date Invalid, Enter correct input");
   }
+  
+  alert("Your akan name is " +akan_name);
 
 }
-alert("Your akan name is " +akan_name);
