@@ -52,4 +52,14 @@ html{
      height: 30px;
      border-radius: 3px;
  }
- 
+ #footer {
+  padding: 32px;
+  background: rgb(14, 16, 17);
+  color: #fff;
+  text-align: center;
+}
+
+#footer a {
+  color: #c3ccd1b0;
+  text-decoration: none;
+}
