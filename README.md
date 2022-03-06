@@ -1,4 +1,4 @@
-# Ghanian Akan Name Generator
+# Ghanaian Akan Name Generator
 
 ### This is a Web Akan name generator
 
