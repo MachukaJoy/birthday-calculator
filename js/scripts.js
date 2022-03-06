@@ -7,19 +7,20 @@ function validateFunction() {
   var gender = document.forms["userinput"]["gender"].value;
 
   var date = document.forms["userinput"]["date"].value;
-
+  //change the date format
   var confirmDate = new Date(date);
-
-  var confirmDay = confirmDate.getDay();
+  
+  //get the day from the changed format
+  var dayIndex = confirmDate.getDay(); 
 
   if (gender === "Male") {
-    akan_name = maleNames[confirmDay];
+    akan_name = maleNames[dayIndex];
   }
   else if (gender === "Female") {
-    akan_name = femaleNames[confirmDay]
+    akan_name = femaleNames[dayIndex]
   }
   else {
-    alert("Date Invalid, Enter correct input");
+    alert("Input is either Invalid or Empty, Enter correct input");
   }
 
   alert("Your akan name is " + akan_name);
